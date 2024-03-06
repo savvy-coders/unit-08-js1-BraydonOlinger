@@ -30,44 +30,56 @@
 export function getFirstName() {
     return firstName;
   }
-  
+  let firstName = 'Braydon';
   export function getAge() {
     return age;
   }
-  
+  let age = 25;
   export function getIsProgrammer() {
-    return isProgrammer;
+    return isProgrammer true;
   }
-  
+  let isProgrammer = 
   export function getCanVote() {
     return canVote;
   }
-  
+  let canVote = true;
   export function getDescription() {
     return description;
   }
-  
+  let Description = 'Braydon';'25';'isProgrammer'
   export function getNum1() {
     return num1;
   }
-  
+  let num1 = 1;
   export function getNum2() {
     return num2;
   }
-  
+  let num2 = 2;
   export function getSum() {
     return sum;
   }
-  
+  let sum = num1 + num2;
   export function getOption() {
     return option;
   }
-  
+  let option = [1, 2, 3];
+  let decision;
+  if (option === '1') {
+      decision = "Option 1 chosen";
+  } else if (option === '2') {
+      decision = "Option 2 chosen";
+  } else if (option === '3') {
+      decision = 'Option 3 chosen';
+  } else {
+      decision = "Invalid Option";
+  }
+  console.log("Decision", decision);
   export function getDecision() {
     return decision;
   }
-  
   export function getIsAdult() {
     return isAdult;
   }
-  
+  let age = 18;
+  let message = (age >= 18) ? 'You are an adult' : 'You are not an adult';
+  console.log(messsage);
